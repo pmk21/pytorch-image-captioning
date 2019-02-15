@@ -54,6 +54,7 @@ def load_descriptions(filename):
         vocab.update(img_desc)
         img_desc = ' '.join(img_desc)
         img_desc = img_desc.rstrip('\n')
+        img_desc = 'startseq ' + img_desc + ' endseq'
         if img_id not in desc:
             desc[img_id] = []
         desc[img_id].append(img_desc)
