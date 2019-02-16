@@ -74,7 +74,6 @@ descriptions = load_descriptions(f_name, idx)
 img_desc = map_descriptions(descriptions)
 clean_descriptions(img_desc)
 vocabulary = to_vocabulary(img_desc)
-#print(list(img_desc.keys())[0], img_desc[list(img_desc.keys())[0]])
 print('Vocabulary Size: %d' % len(vocabulary))
 #Save descriptions to a text file
 save_descriptions(img_desc, 'descriptions.txt')

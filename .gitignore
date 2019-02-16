@@ -4,3 +4,6 @@ Flickr8k_Dataset.zip
 Flickr8k_text.zip
 descriptions.txt
 .vscode/
+word_index.txt
+models/
+__pycache__/
