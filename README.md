@@ -1,6 +1,6 @@
 # Image Captioning with PyTorch
 
-A simple encoder-decoder model which captions images.
+A simple encoder-decoder model which captions images. Inspired by this wonderful [repo.](https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning)
 
 ## Screenshot examples
 
@@ -14,7 +14,7 @@ I have used the [Flickr8k Dataset](https://forms.illinois.edu/sec/1713398). It c
 
 1. Download the Flickr8k Dataset into the same directory and extract the dataset to a file named `Flickr8k_Dataset`, extract the text files to a file named `Flickr8k_text`.
 
-2. **Preprocessing**  
+2. **Preprocessing the captions**  
 
     ```shell
     $ python preprocessing_descriptions.py
